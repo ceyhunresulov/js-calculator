@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="my-5 text-center">Calculator</h1>
+      <p class="history bg-dark mx-auto text-secondary w-50 fs-5 m-0 pb-3 ps-2">
+        history
+      </p>
+      <form class="border-none w-50 mx-auto bg-dark">
+        <div class="form-group">
+          <input
+            type="text"
+            readonly
+            class="form-control py-2 bg-dark text-white fs-2"
+            id="calc"
+            placeholder="add"
+          />
+        </div>
+      </form>
+      <div class="row w-50 mx-auto pb-1 bg-dark mt-5 p-5">
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="clear bg-warning fs-5 px-5 py-2">C</button>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="number bg-white fs-5 px-5 py-2">9</button>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="number bg-white fs-5 px-5 py-2">8</button>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="number bg-white fs-5 px-5 py-2">7</button>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="number bg-white fs-5 px-5 py-2">6</button>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="number bg-white fs-5 px-5 py-2">5</button>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="number bg-white fs-5 px-5 py-2">4</button>
+        </div>
+
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="number bg-white fs-5 px-5 py-2">3</button>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="number bg-white fs-5 px-5 py-2">2</button>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="number bg-white fs-5 px-5 py-2">1</button>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="number bg-white fs-5 px-5 py-2">0</button>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="number bg-white fs-5 px-5 py-2">.</button>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="operator bg-secondary fs-5 px-5 py-2">/</button>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="operator bg-secondary fs-5 px-5 py-2">x</button>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="operator bg-secondary fs-5 px-5 py-2">-</button>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="operator bg-secondary fs-5 px-5 py-2">+</button>
+        </div>
+        <div
+          class="col-3 d-flex justify-content-center align-item-center d-inline p-2"
+        >
+          <button class="equal bg-secondary fs-5 px-5 py-2">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="./calc.js"></script>
+  </body>
+</html>
